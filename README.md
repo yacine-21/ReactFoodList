@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-THIS IS A REACT PROJET, I FOLLOWED A TUTORIAL ON YOUTUBE, I'M LEARNING USING REACT SO HERE A SIMPLE TO DO LIST : THE TUTO : https://www.youtube.com/watch?v=U9T6YkEDkMo&t=1525s&ab_channel=DevEd
+THIS IS A REACT PROJET, I FOLLOWED A TUTORIAL ON YOUTUBE, I'M LEARNING USING REACT SO HERE A SIMPLE FOOD LIST: THE TUTO : https://www.youtube.com/watch?v=U9T6YkEDkMo&t=1525s&ab_channel=DevEd
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
