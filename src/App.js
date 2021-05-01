@@ -4,7 +4,9 @@ import "./App.css";
 const App = () => {
 
   //
-  const {REACT_APP_ID, REACT_APP_API_KEY} = process.env;
+  // const {REACT_APP_ID, REACT_APP_API_KEY} = process.env;
+  const REACT_APP_ID = "b365cd1c";
+  const REACT_APP_API_KEY = "6a84af7d684cd9c370d69d4089c2ea0c";
 
   // States
   const [recipes, setRecipes] = useState([]);
