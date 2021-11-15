@@ -1,72 +1,148 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-THIS IS A REACT PROJET, I FOLLOWED A TUTORIAL ON YOUTUBE, I'M LEARNING USING REACT SO HERE A SIMPLE FOOD LIST: THE TUTO : https://www.youtube.com/watch?v=U9T6YkEDkMo&t=1525s&ab_channel=DevEd
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/yacine/ReactFoodList">
+    <img src="https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2017.2F11.2F06.2Fcaebbea8-6f81-4e6d-8c4a-f9dbfda76fb4.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgV2VzdGVuZDYxL0dldHR5IEltYWdlcyAvIENBUElUQUw%3D/la-food-tech-fait-craquer-les-investisseurs-1253941.jpg" alt="Logo" width="80" height="80">
+  </a>
 
-### `yarn start`
+  <h3 align="center">My Readme file for this project </h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <p align="center">
+    If you want to clone this project and run it follow the steps below :)
+    <br />
+    <a href="https://react-food-list-jmpf7lvfp-yacine-21.vercel.app/">View Demo</a>
+    ·
+    <a href="https://github.com/yacine-21/ReactFoodList/issues">Report Bug</a>
+    ·
+  </p>
+</div>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This is a simple web app in react, fetching recipes from an API (Edaman)
 
-### `yarn test`
+<img  src = "https://media4.giphy.com/media/A5ugHVbuFL3uo/200w.gif?cid=82a1493bmb4n8615mjht38spduuiw12pli1o283qiiofcrxk&rid=200w.gif&ct=g" alt='gif'/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This section list frameworks/libraries used to bootstrap your project.
 
-### `yarn eject`
+* [React.js](https://reactjs.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- GETTING STARTED -->
+## Getting Started
+### Prerequisites
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+First make sur you have npm installed on your machine !
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Get a free API Key at [Edamam](https://developer.edamam.com/edamam-recipe-api)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/yacine-21/ReactFoodList
+   ```
+   
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+   
+4. Enter your API_KEY in 
+`.env`
+   ```js
+   REACT_APP_API_KEY='ENTER YOUR API KEY';
+   ```
+   Enter your REACT_APP_API_ID in
+   `.env`
+   ```js
+   REACT_APP_API_ID='ENTER YOUR API ID';
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- CONTRIBUTING -->
+## Contributing
 
-### Analyzing the Bundle Size
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Making a Progressive Web App
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- CONTACT -->
+## Contact
 
-### Advanced Configuration
+Yacine - [@my_twitter](https://twitter.com/Yacine_D_21) - yacinelyoubi37@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Project Link: [here](https://react-food-list-jmpf7lvfp-yacine-21.vercel.app/)
 
-### Deployment
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Img Shields](https://shields.io)
+* [GitHub Pages](https://pages.github.com)
+* [Font Awesome](https://fontawesome.com)
+* [React Icons](https://react-icons.github.io/react-icons/search)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/yacine-21/ReactFoodList.svg?style=for-the-badge
+[contributors-url]: https://github.com/yacine-21/ReactFoodList/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/yacine-21/ReactFoodList.svg?style=for-the-badge
+[forks-url]: https://github.com/yacine-21/ReactFoodList/network/members
+[stars-shield]: https://img.shields.io/github/stars/yacine-21/ReactFoodList.svg?style=for-the-badge
+[stars-url]: https://github.com/yacine-21/ReactFoodList/stargazers
+[issues-shield]: https://img.shields.io/github/issues/yacine-21/ReactFoodList.svg?style=for-the-badge
+[issues-url]: https://github.com/yacine-21/ReactFoodList/issues
+[license-shield]: https://img.shields.io/github/license/yacine-21/ReactFoodList.svg?style=for-the-badge
+[license-url]: https://github.com/yacine-21/ReactFoodList/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/yacine-lyoubi/
